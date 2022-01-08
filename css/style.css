@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1.47059;
+  font-size: 1.4rem;
+  overflow-x: hidden;
+  color: #1d1d1f;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font-size: 1.4rem;
+  font-weight: 300;
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* -------- main ---------*/
